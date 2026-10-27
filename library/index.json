@@ -1,0 +1,869 @@
+{
+  "version": 1,
+  "generated": "2026-10-27",
+  "root": "library/",
+  "notes": "pdf/ is the source of truth; md/ mirrors its tree one-to-one and is the only folder indexed by the RAG backend. Paths are relative to library/.",
+  "documents": [
+    {
+      "id": "architecture/architectures",
+      "title": "Architectures",
+      "topic": "architecture",
+      "original_name": "Architectures.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/architecture/architectures.pdf",
+      "md_path": "md/architecture/architectures.md",
+      "description": "Monolith, microservices, hexagonal, clean architecture, DDD and layered architecture, with a hexagonal Spring example.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [
+          3
+        ],
+        "indentation_rebuilt": [
+          1,
+          3,
+          4,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "id": "architecture/communication-entre-les-services",
+      "title": "Communication entre les services",
+      "topic": "architecture",
+      "original_name": "Communication entre les services.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/architecture/communication-entre-les-services.pdf",
+      "md_path": "md/architecture/communication-entre-les-services.md",
+      "description": "Synchronous (REST, gRPC, RestTemplate, Feign, WebClient) vs asynchronous (Kafka, events) service communication.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "architecture/solid-principles",
+      "title": "SOLID principles",
+      "topic": "architecture",
+      "original_name": "SOLID principles.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/architecture/solid-principles.pdf",
+      "md_path": "md/architecture/solid-principles.md",
+      "description": "The five SOLID principles with Java before/after examples.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [
+          1
+        ],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "design-patterns/behavioral-patterns",
+      "title": "Behavioral Patterns",
+      "topic": "design-patterns",
+      "original_name": "BehavioralPatterns.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/design-patterns/behavioral-patterns.pdf",
+      "md_path": "md/design-patterns/behavioral-patterns.md",
+      "description": "Strategy, Template Method, Command and Chain of Responsibility patterns with Java code.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [
+          2,
+          3,
+          4
+        ],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "design-patterns/creational-patterns",
+      "title": "Creational Patterns",
+      "topic": "design-patterns",
+      "original_name": "CreationalPattern.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/design-patterns/creational-patterns.pdf",
+      "md_path": "md/design-patterns/creational-patterns.md",
+      "description": "Singleton, Factory Method, Abstract Factory, Builder and Prototype with Java code.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "diagrams": [
+          2,
+          5,
+          9,
+          10,
+          14,
+          15
+        ],
+        "indentation_rebuilt": []
+      }
+    },
+    {
+      "id": "design-patterns/structural-patterns",
+      "title": "Structural Patterns",
+      "topic": "design-patterns",
+      "original_name": "StructuralPatterns.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/design-patterns/structural-patterns.pdf",
+      "md_path": "md/design-patterns/structural-patterns.md",
+      "description": "Adapter, Facade, Proxy, Decorator, Composite and Bridge with Java code.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16
+        ],
+        "diagrams": [
+          2,
+          7,
+          14
+        ],
+        "indentation_rebuilt": []
+      }
+    },
+    {
+      "id": "frontend/react-redux",
+      "title": "React - Redux",
+      "topic": "frontend",
+      "original_name": "React - Redux.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/frontend/react-redux.pdf",
+      "md_path": "md/frontend/react-redux.md",
+      "description": "React and Redux Toolkit interview prep: hooks, re-renders, memoization, store/slices/thunks, project structure.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ]
+      }
+    },
+    {
+      "id": "java/collection",
+      "title": "Collection",
+      "topic": "java",
+      "original_name": "Collection.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/collection.pdf",
+      "md_path": "md/java/collection.md",
+      "description": "Java collections: List, Set, Map, Queue/Deque, HashMap internals, complexity, thread safety.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [
+          3,
+          6
+        ],
+        "diagrams": [
+          1,
+          2,
+          3,
+          9
+        ],
+        "indentation_rebuilt": []
+      }
+    },
+    {
+      "id": "java/comparable-vs-comparator",
+      "title": "Comparable vs Comparator",
+      "topic": "java",
+      "original_name": "Comparable vs Comparator.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/comparable-vs-comparator.pdf",
+      "md_path": "md/java/comparable-vs-comparator.md",
+      "description": "Comparable vs Comparator with examples, key differences and two exercises.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "java/encapsulation-inheritance-polymorphism-abstraction",
+      "title": "Encapsulation, Inheritance, Polymorphism, Abstraction",
+      "topic": "java",
+      "original_name": "Encapsulation, Inheritance, Polymorphism, Abstraction.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/encapsulation-inheritance-polymorphism-abstraction.pdf",
+      "md_path": "md/java/encapsulation-inheritance-polymorphism-abstraction.md",
+      "description": "The four OOP pillars in Java with examples, diamond problem and two exercises.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [
+          1
+        ],
+        "diagrams": [
+          4
+        ],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "java/immutabilite",
+      "title": "Immutabilité",
+      "topic": "java",
+      "original_name": "Immutabilité.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/immutabilite.pdf",
+      "md_path": "md/java/immutabilite.md",
+      "description": "Immutable classes, defensive copies, String/Integer caches, records and thread safety.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [
+          1
+        ],
+        "diagrams": [
+          3,
+          4,
+          5
+        ],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "java/java-evolution",
+      "title": "Java evolution",
+      "topic": "java",
+      "original_name": "Java evolution.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/java-evolution.pdf",
+      "md_path": "md/java/java-evolution.md",
+      "description": "Java 8 to Java 21 features: lambdas, var, HttpClient, records, sealed classes, virtual threads.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "id": "java/methods-common-to-all-objects-effective-java",
+      "title": "Methods Common to All Objects: Effective Java",
+      "topic": "java",
+      "original_name": "Methods Common to All Objects_ Effective Java.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/methods-common-to-all-objects-effective-java.pdf",
+      "md_path": "md/java/methods-common-to-all-objects-effective-java.md",
+      "description": "Effective Java chapter on equals, hashCode, toString, clone, Comparable and Comparator.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "id": "java/optional",
+      "title": "Optional",
+      "topic": "java",
+      "original_name": "Optional.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/optional.pdf",
+      "md_path": "md/java/optional.md",
+      "description": "Java Optional: creation, unwrapping, map/flatMap/filter and what not to do.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [
+          4
+        ],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "java/serialization-et-deserialization",
+      "title": "Serialization et Deserialization",
+      "topic": "java",
+      "original_name": "Serialization et Deserialization.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/serialization-et-deserialization.pdf",
+      "md_path": "md/java/serialization-et-deserialization.md",
+      "description": "Java serialization, transient, Optional pitfalls and Jackson JSON serialization in Spring Boot.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [
+          1,
+          4
+        ],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "java/streams",
+      "title": "Streams",
+      "topic": "java",
+      "original_name": "Streams.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/streams.pdf",
+      "md_path": "md/java/streams.md",
+      "description": "Java Streams: lazy evaluation, intermediate/terminal operations, map/flatMap, reduce and Collectors.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "java/threads",
+      "title": "Threads",
+      "topic": "java",
+      "original_name": "Threads (8).pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/java/threads.pdf",
+      "md_path": "md/java/threads.md",
+      "description": "Java threads: lifecycle, scheduling, sleep/join, priorities, thread pools, synchronization, deadlock, wait/notify.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [
+          9,
+          10,
+          12,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "diagrams": [
+          2,
+          3,
+          7,
+          8,
+          21
+        ],
+        "indentation_rebuilt": [
+          6,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "id": "kafka/kafka",
+      "title": "Kafka",
+      "topic": "kafka",
+      "original_name": "Kafka.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/kafka/kafka.pdf",
+      "md_path": "md/kafka/kafka.md",
+      "description": "Kafka concepts (topics, partitions, offsets, consumer groups) and the LedgerX outbox/idempotent-consumer architecture.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [
+          3,
+          4,
+          5,
+          6,
+          10
+        ],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "id": "kafka/outbox-pattern",
+      "title": "Outbox Pattern",
+      "topic": "kafka",
+      "original_name": "Outbox Pattern.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/kafka/outbox-pattern.pdf",
+      "md_path": "md/kafka/outbox-pattern.md",
+      "description": "Outbox pattern with Spring: transactional outbox table and a scheduled Kafka publisher.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "security/oauth2-et-openid-connect-oidc",
+      "title": "OAuth2 et OpenID Connect (OIDC)",
+      "topic": "security",
+      "original_name": "OAuth2 et OpenID Connect (OIDC).pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/security/oauth2-et-openid-connect-oidc.pdf",
+      "md_path": "md/security/oauth2-et-openid-connect-oidc.md",
+      "description": "OAuth2 roles and flows, PKCE, client credentials, JWT validation and Keycloak role mapping in Spring Security.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [
+          4,
+          5
+        ],
+        "indentation_rebuilt": [
+          2,
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "id": "security/partie-3-integrer-keycloak-avec-spring-security-jwt",
+      "title": "Partie 3 : Intégrer Keycloak avec Spring Security en utilisant JWT",
+      "topic": "security",
+      "original_name": "Partie 3 _ Intégrer Keycloak avec Spring Security en utilisant JWT.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/security/partie-3-integrer-keycloak-avec-spring-security-jwt.pdf",
+      "md_path": "md/security/partie-3-integrer-keycloak-avec-spring-security-jwt.md",
+      "description": "Step-by-step Keycloak + Spring Security resource server setup with JWT.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "security/spring-security-guide-part-1",
+      "title": "Spring Security Guide - Part 1",
+      "topic": "security",
+      "original_name": "Spring Security Guide- Part 1.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/security/spring-security-guide-part-1.pdf",
+      "md_path": "md/security/spring-security-guide-part-1.md",
+      "description": "Spring Security fundamentals and a custom opaque-token authentication with filter, entry point and config.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [
+          4
+        ],
+        "diagrams": [
+          2,
+          8
+        ],
+        "indentation_rebuilt": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "id": "security/spring-security-guide-part-2",
+      "title": "Spring Security Guide. Part 2",
+      "topic": "security",
+      "original_name": "Spring Security Guide. Part 2.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/security/spring-security-guide-part-2.pdf",
+      "md_path": "md/security/spring-security-guide-part-2.md",
+      "description": "Replacing the opaque token cache with a stateless JWT service in Spring Security.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [
+          2
+        ],
+        "indentation_rebuilt": [
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "spring/criteria-api-vs-specification",
+      "title": "Criteria API vs Specification",
+      "topic": "spring",
+      "original_name": "Criteria API vs Specification.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/spring/criteria-api-vs-specification.pdf",
+      "md_path": "md/spring/criteria-api-vs-specification.md",
+      "description": "JPA Criteria API vs Spring Data Specifications, with multi-criteria search and pagination exercises.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "spring/n-plus-1-problem",
+      "title": "N+1 problem",
+      "topic": "spring",
+      "original_name": "N+1 problem.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/spring/n-plus-1-problem.pdf",
+      "md_path": "md/spring/n-plus-1-problem.md",
+      "description": "The N+1 query problem in JPA and fixes: JOIN FETCH, EntityGraph, DTO projection, BatchSize.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "spring/spring-aop",
+      "title": "Spring AOP",
+      "topic": "spring",
+      "original_name": "Spring AOP.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/spring/spring-aop.pdf",
+      "md_path": "md/spring/spring-aop.md",
+      "description": "Spring AOP concepts, advice types, logging/performance aspects and the self-invocation proxy limitation.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "spring/spring-auditing",
+      "title": "Spring Auditing",
+      "topic": "spring",
+      "original_name": "Spring Auditing.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/spring/spring-auditing.pdf",
+      "md_path": "md/spring/spring-auditing.md",
+      "description": "Spring Data JPA auditing, Hibernate Envers history and business auditing with AOP.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "spring/validation-groups",
+      "title": "Validation Groups",
+      "topic": "spring",
+      "original_name": "Validation Groups.pdf",
+      "formats": [
+        "pdf",
+        "md"
+      ],
+      "pdf_path": "pdf/spring/validation-groups.pdf",
+      "md_path": "md/spring/validation-groups.md",
+      "description": "Bean Validation groups and group sequences in Spring Boot.",
+      "indexed_for_rag": "md",
+      "review_needed": true,
+      "review_pages": {
+        "transcribed_from_images": [],
+        "diagrams": [],
+        "indentation_rebuilt": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  ],
+  "other_files": [
+    {
+      "path": "Jouhar_Houda_CV_English.pdf",
+      "role": "cv",
+      "served_by": "ProfileController (library/ root)",
+      "indexed_for_rag": false
+    },
+    {
+      "path": "_to_review/architectures-root-duplicate.pdf",
+      "role": "duplicate",
+      "reason": "Byte-identical to pdf/architecture/architectures.pdf",
+      "indexed_for_rag": false
+    },
+    {
+      "path": "_to_review/comparable-vs-comparator.original.md",
+      "role": "superseded",
+      "reason": "Original poor md extraction, replaced by md/java/comparable-vs-comparator.md",
+      "indexed_for_rag": false
+    },
+    {
+      "path": "_to_review/README.md",
+      "role": "notes",
+      "indexed_for_rag": false
+    }
+  ]
+}
